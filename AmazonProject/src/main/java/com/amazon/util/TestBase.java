@@ -17,7 +17,6 @@ public class TestBase extends Setup {
 		System.setProperty(chromedriverkey, chromepath);
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-
 		return driver;
 
 	}
